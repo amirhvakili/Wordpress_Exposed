@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="farsi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>websoft3</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="topbar-menu">
+        <div class="container topbar-container">
+            <div class="topbar-right">
+
+                <div class="telegram">
+                    <i class="fas fa-phone"></i>
+                    <span> پشتیبانی تلگرام : websoft3_support</span>
+                </div>
+
+                <div class="email">
+                    <i class="fas fa-envelope"></i>
+                    <span>ایمیل : websoft3.ir@gmail.com</span>
+                </div>
+
+            </div>
+
+            <div class="topbar-left">
+
+                <div class="topbar-left-menu">
+                    <ul>
+                        <li><a href="#">قالب فروشگاهی وردپرس</a></li>
+                        <li><a href="#">وردپرس چیست</a></li>
+                        <li class="instagram"> <i class="fab fa-instagram"></i><a href="#"> اینستاگرام</a></li>
+                    </ul>
+                </div>
+
+                <div class="topbar-left-icons">
+                    <i class="fas fa-search"></i>
+                    <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <nav class="main-menu">
+        <div class="container mainmenu-container">
+            
+            <div class="logo">
+                <figure>
+                    <img src="img/logo.jpg">
+                </figure>
+            </div>
+            
+            <div class="menu">
+                <ul>
+                    <li><a href="#">آموزش وردپرس</a></li>
+                    <li>
+                        <a href="#">آموزش php رایگان</a>
+                        <ul>
+                            <li><a href="#">آموزش php پروژه محور</a> </li>
+                            <li><a href="#">آموزش برنامه نویسی php</a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">دوره های آموزشی</a>
+                        <ul>
+                            <li><a href="#">اموزش طراحی قالب وردپرس (تخصصی)</a> </li>
+                            <li><a href="#">اموزش طراحی سایت بدون کدنویسی</a> </li>
+                            <li><a href="#">اموزش کار با وردپرس</a> </li>
+                            <li><a href="#">اموزش وردپرس پیشرفته</a> </li>
+                            <li><a href="#">اموزش طراحی سایت در فوتوشاپ</a> </li>
+                            <li><a href="#">اموزش طراحی ریسپانسیو</a> </li>
+                            <li><a href="#">اموزش طراحی سایت با php</a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">آموزش html  و css</a>
+                        <ul>
+                            <li><a href="#">آموزش طراحی سایت با html</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">نقشه راه برنامه نویسی وب</a></li>
+                </ul>
+            </div>
+            
+            <div class="register">
+                <a href="#"><i class="fas fa-user-lock"></i> ورود/ثبت نام</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="videosection">
+
+        <div class="container">
+
+            <div class="video-section-top">
+                <div class="video-section-top-right">
+                    <a href="#">
+                        <i class="fas fa-play-circle"></i>
+                        <figure>
+                            <img src="img/1.jpg">
+                        </figure>
+                    </a>
+                </div>
+
+                <div class="video-section-top-left">
+                    <div class="left-videos">
+                        <a href="#">
+                            <i class="fas fa-play"></i>
+                            <figure>
+                                <img src="img/9.jpg">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="left-videos">
+                        <a href="#">
+                            <i class="fas fa-play"></i>
+                            <figure>
+                                <img src="img/10.jpg">
+                            </figure>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="video-section-bottom">
+                <div class="bottom-video">
+                    <a href="#">
+                        <i class="fas fa-play"></i>
+                        <figure>
+                            <img src="img/11.jpg">
+                        </figure>
+                    </a>
+                </div>
+                <div class="bottom-video">
+                    <a href="#">
+                        <i class="fas fa-play"></i>
+                        <figure>
+                            <img src="img/12.jpg">
+                        </figure>
+                    </a>
+                </div>
+                <div class="bottom-video">
+                    <a href="#">
+                        <i class="fas fa-play"></i>
+                        <figure>
+                            <img src="img/13.jpg">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <section class="road">
+        <div class="container">
+
+            <div class="road-title">
+                <i class="fas fa-coffee"></i>
+                <h1>چی میخوای یاد بگیری؟</h1>
+            </div>
+
+            <div class="road-content">
+                <div class="road-articles">
+                    <i class="fab fa-wordpress"></i>
+                    <h2>وردپرس از پایه</h2>
+                    <p>اگر هیچ شناختی از وردپرس ندارید از اینجا شروع کنید بیش از 20 جلسه آموزش وردپرس رایگان</p>
+                    <div class="btn-more">
+                        <a href="#">ادامه...</a>
+                    </div>
+                </div>
+                <div class="road-articles">
+                    <i class="far fa-object-group"></i>
+                    <h2>طراحی سایت بدون کدنویسی</h2>
+                    <p>صفرتاصد طراحی سایت بدون کدنویسی را بصورت پروژه محور در قالب طراحی سایت دیجی کالا به شما آموزش میدهیم</p>
+                    <div class="btn-more">
+                        <a href="#">ادامه...</a>
+                    </div>
+                </div>
+                <div class="road-articles">
+                    <i class="fas fa-laptop-code"></i>
+                    <h2>برنامه نویسی وردپرس</h2>
+                    <p>میخوای یادبگیری خودت یه قالب مثل استادیار و وودمارت و... از صفر طراحی کنی؟ (دوره تخصصی طراحی قالب وردپرس)</p>
+                    <div class="btn-more">
+                        <a href="#">ادامه...</a>
+                    </div>
+                </div>
+                <div class="road-articles">
+                    <i class="fas fa-code"></i>
+                    <h2>آموزش HTML و CSS</h2>
+                    <p>اولین قدم برای ورود به دنیای برنامه نویسی و طراحی سایت یادگیری HTML , CSS است در وبسافت3 رایگان یادبگیرید</p>
+                    <div class="btn-more">
+                        <a href="#">ادامه...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="article">
+        <div class="container">
+
+            <div class="article-head">
+                <div class="article-title">
+                    <h1>مطالب جدید وبسافت3</h1>
+                    <span>بلاگ</span>
+                </div>
+                <div class="article-button">
+                    <a href="#">مطالب بیشتر</a>
+                </div>
+
+            </div>
+
+            <div class="article-slider owl-carousel owl-theme">
+
+                        <div class="item">
+                            <figure>
+                                <img src="img/woo-commerce-eshop-1.png">
+                            </figure>
+                            <a href="#">لیست شورت کدهای ووکامرس</a>
+                            <div class="item-more">
+                                <span>بیشتر بخوانید</span>
+                                <span>بهمن 21، 1400</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <figure>
+                                <img src="img/best-wordpress-gallery-plugins-featured-image.jpg">
+                            </figure>
+                            <a href="#">افزونه گالری تصاویر وردپرس</a>
+                            <div class="item-more">
+                                <span>بیشتر بخوانید</span>
+                                <span>بهمن 21، 1400</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <figure>
+                                <img src="img/wpml-fb-dark-bg-1.jpg">
+                            </figure>
+                            <a href="#">بهترین افزونه دو زبانه برای وردپرس + بررسی و مقایسه</a>
+                            <div class="item-more">
+                                <span>بیشتر بخوانید</span>
+                                <span>بهمن 21، 1400</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <figure>
+                                <img src="img/switch-to-classicpress_02.jpg">
+                            </figure>
+                            <a href="#">ویرایشگر کلاسیک وردپرس</a>
+                            <div class="item-more">
+                                <span>بیشتر بخوانید</span>
+                                <span>بهمن 21، 1400</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <figure>
+                                <img src="img/banner-1544x500.png">
+                            </figure>
+                            <a href="#">افزونه فاکتور حرفه ای ووکامرس</a>
+                            <div class="item-more">
+                                <span>بیشتر بخوانید</span>
+                                <span>بهمن 21، 1400</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <figure>
+                                <img src="img/questionanswerplguinsforwp.png">
+                            </figure>
+                            <a href="#">بهترین افزونه پرسش و پاسخ وردپرس</a>
+                            <div class="item-more">
+                                <span>بیشتر بخوانید</span>
+                                <span>بهمن 21، 1400</span>
+                            </div>
+                        </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="article2">
+
+        <div class="container article2-container">
+
+            <div class="article-box2">
+                <a href="#">
+                    <figure>
+                        <img src="img/html-tags-1.png">
+                    </figure>
+                    <h2>تگ های HTML لیست تمامی تگ های کاربردی HTML5</h2>
+                </a>
+            </div>
+
+            <div class="article-box2">
+                <a href="#">
+                    <figure>
+                        <img src="img/elementor.png">
+                    </figure>
+                    <h2>لود نشدن المنتور | علت باز نشدن المنتور + راه حل</h2>
+                </a>
+            </div>
+
+            <div class="article-box2">
+                <a href="#">
+                    <figure>
+                        <img src="img/3.jpg">
+                    </figure>
+                    <h2>آموزش نصب ووکامرس روی وردپرس</h2>
+                </a>
+            </div>
+
+            <div class="article-box2">
+                <a href="#">
+                    <figure>
+                        <img src="img/best-wp-spinning-wheel-plugins.jpg">
+                    </figure>
+                    <h2>افزونه گردونه شانس وردپرس WP Optin Wheel</h2>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="course">
+        <div class="container">
+
+            <div class="course-head">
+                <div class="course-title">
+                    <h1>دوره های پرطرفدار</h1>
+                    <span>آموزش</span>
+                </div>
+                <div class="course-button">
+                    <a href="#">همه دوره ها</a>
+                </div>
+
+            </div>
+
+            <div class="course-slider owl-carousel owl-theme">
+
+                <div class="item item-course">
+                    <figure>
+                        <img src="img/course1.jpg">
+                    </figure>
+                    <a href="#">آموزش HTML CSS به زبان ساده (رایگان – جدید)</a>
+
+                    <div class="rating">
+
+                        <div class="teacher">
+                            <span>مدرس: استاد</span>
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="info">
+
+                        <div class="price">
+                            <del>300000 تومان</del>
+                            <ins>250000 تومان</ins>
+
+                        </div>
+
+                        <div class="users">
+                            <i class="fas fa-users"></i>
+                            <span>56</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item-course">
+                    <figure>
+                        <img src="img/course2.jpg">
+                    </figure>
+                    <a href="#">ساخت سیستم مدیریت محتوا با php</a>
+
+                    <div class="rating">
+
+                        <div class="teacher">
+                            <span>مدرس: استاد</span>
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="info">
+
+                        <div class="price">
+                            <del>500000 تومان</del>
+                            <ins>450000 تومان</ins>
+
+                        </div>
+
+                        <div class="users">
+                            <i class="fas fa-users"></i>
+                            <span>75</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item-course">
+                    <figure>
+                        <img src="img/course3.jpg">
+                    </figure>
+                    <a href="#">آموزش طراحی قالب سایت در فتوشاپ (جدید)</a>
+
+                    <div class="rating">
+
+                        <div class="teacher">
+                            <span>مدرس: استاد</span>
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="info">
+
+                        <div class="price">
+                            <del>1800000 تومان</del>
+                            <ins>1500000 تومان</ins>
+
+                        </div>
+
+                        <div class="users">
+                            <i class="fas fa-users"></i>
+                            <span>92</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item-course">
+                    <figure>
+                        <img src="img/course4.jpg">
+                    </figure>
+                    <a href="#">آموزش طراحی قالب وردپرس و فروش در ژاکت (جدید ۱۴۰۰)</a>
+
+                    <div class="rating">
+
+                        <div class="teacher">
+                            <span>مدرس: استاد</span>
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="info">
+
+                        <div class="price">
+                            <del>2000000 تومان</del>
+                            <ins>1750000 تومان</ins>
+
+                        </div>
+
+                        <div class="users">
+                            <i class="fas fa-users"></i>
+                            <span>126</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="best-course">
+
+        <div class="container">
+
+            <div class="best-course-head">
+
+                <div class="best-course-title">
+                    <h1>بهترین دوره وبسافت3</h1>
+                    <span>از دیدگاه کاربران</span>
+                </div>
+
+            </div>
+
+            <div class="course-description">
+
+                <div class="course-info">
+
+                    <div class="course-overview">
+                        <h2>آموزش طراحی قالب وردپرس و فروش در ژاکت (جدید ۱۴۰۰)</h2>
+                        <p>متخصص وردپرس کیه؟ کسی که طراحی سایت رو هم بدون کدنویسی بلده هم با کدنویسی بلده! اگر شما به این معنا متخصص وردپرس بشید هم فرصت های شغلی بیشتری براتون فراهم میشه هم ظرفیت درآمدزایی تون بالاتر میره .</p>
+
+                    </div>
+
+                    <div class="course-details">
+
+                        <div class="course-teacher">
+                            <p>امیرحسین</p>
+                            <span>مدرس</span>
+                        </div>
+
+                        <div class="course-sessions">
+                            <p>100+</p>
+                            <span>تعداد جلسات</span>
+                        </div>
+
+                        <div class="course-students">
+                            <p>400+</p>
+                            <span>تعداد دانشجو</span>
+                        </div>
+
+                    </div>
+
+                    <div class="more-info-btn">
+                        <a href="#">توضیحات بیشتر</a>
+                    </div>
+
+                </div>
+
+                <div class="course-image">
+                    <figure>
+                        <img src="img/course2.jpg">
+                    </figure>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="introduction">
+
+        <div class="container">
+
+            <div class="intro-title">
+                <h1>وبسافت 3</h1>
+            </div>
+
+            <div class="intro-body">
+
+                <div class="intro-first-paragraph">
+                    <p>
+                        درود بر شما... امیرحسین وکیلی هستم، عاشق مردم ایران زمین... این وبسایت را در 1393/10/7 با هدف ارائه آموزش های کاربردی برای پرورش متخصص در بازارکار راه اندازی کردم. طبق آمار، و بررسی های انجام شده، در حال حاضر حوزه وب و طراحی سایت در بین همه حوزه های برنامه نویسی، بازارکار بهتر و پررونق تری دارد که یکی از دلایل آن اثرات شیوع کرونا و رشد کسب و کارهای اینترنتی در دوسال اخیر است. حالا همه میدانیم گل سرسبد بازار طراحی سایت، وردپرس است. چراکه بیش از 95درصد وبسایت هایی که امروزه راه اندازی میشود وردپرسی هستند و تاکنون حدود 50% کل وبسایت های جهان وردپرسی شدند و این یعنی ایجاد کلی فرصت شغلی برای متخصصین وردپرس
+                    </p>
+                </div>
+
+                <div class="intro-other-paragraphs">
+                    <h3>وردپرس فقط بدون کدنویسی نیست...!</h3>
+                    <p>
+                        وقتی اسم آموزش وردپرس میاد عموما فکرمیکنند در مورد طراحی سایت بدون کدنویسی صحبت میکنیم در صورتی این فقط بخشی از ظرفیت های وردپرس است. وردپرس برنامه نویسی هم دارد که ظرفیت های بسیاربالاتری برای درآمدزایی دارد. اگر شما برنامه نویسی وردپرس را یادبگیرید هم مسیرهای درآمدزایی بیشتری برایتان فراهم میشود هم ظرفیت درآمدزایی در این بخش بیشتر است
+                    </p>
+                    <h3>نقشه راه متخصص وردپرس</h3>
+                    <p>
+                        متخصص وردپرس کسی است که هم مهارت های ساخت سایت بدون کدنویسی و هم برنامه نویسی و توسعه وردپرس را دارد. برای اینکه به سطح تخصص برسید باید یک سری مراحل را طبق نقشه راه دقیق طی کنید. در مرحله اول باید طراحی سایت بدون کدنویسی را یادبگیرید. مرحله دوم آموزش html و css است و همچنین آشنایی با جاوااسکریپت مرحله سوم آموزش php پروژه محور برای وردپرس. مرحله چهارم یادگیری کدها و توابع وردپرس برای توسعه و طراحی قالب وردپرس. این موارد جزئیات زیادی دارد که با رعایت سلسله مراتب آن، میتوانید در کمترین زمان ممکن حداکثر 100 روز به یک متخصص وردپرس تبدیل شوید. همه این موارد و مراحل در دوره جامع آموزش طراحی قالب وردپرس از صفرتاصد آموزش داده شده است.
+                    </p>
+                    <h3>تیم وبسافت3 در خدمت شماست...</h3>
+                    <p>
+                        اگر برای شروع یادگیری یا شرکت در دوره آموزش جامع وردپرس سوالی دارید که مطالب و ویدیو های سایت نتوانست ابهامات شمارا برطرف کند میتوانید در تلگرام با تیم پشتیبان وبسافت3 ارتباط بگیرید یا اینکه مستقیما به بنده (رضاحیدری) در اینستاگرام پیام بدید آیدی بنده websoft3_com است با افتخار پاسخگوی سوالات شما عزیزان هستم.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+            <div class="footer-widget">
+
+                <div class="container footer-widget-container">
+                    <div class="footer-column">
+                        <h2>درباره وبسافت3</h2>
+                        <p>وبسافت3 فعالیت خود را در تاریخ 1393/10/7 در زمینه تولید فیلم های آموزش طراحی سایت و و وردپرس آغاز کرده. یکی از دغدغه های بیشتر افراد محصل در رشته های مختلف و به خصوص رشته کامپیوتر، ترس از بیکاری و بدست نیاوردن شغل مورد علاقه شان بعد از فارغ التحصیلی هست. ما با در نظر گرفتن این موضوع و تلاش برای پوشش دادن این نوع دغدغه ها در حد توان به عنوان یک مرجع آموزشی سعی میکنیم با آموزش دادن و پرورش متخصص برای بازارکار در حوضه طراحی سایت به علاقه مندان کمک کنیم تا از این راه به اهداف شغلی خود دست پیدا کنند.
+                        </p>
+                    </div>
+
+                    <div class="footer-column">
+                        <h2>دسترسی سریع</h2>
+                        <ul>
+                            <li><a href="#">وردپرس چیست</a></li>
+                            <li><a href="#">آموزش وردپرس</a></li>
+                            <li><a href="#">آموزش طراحی قالب وردپرس</a></li>
+                            <li><a href="#">طراحی سایت بدون کدنویسی</a></li>
+                            <li><a href="#">آموزش html</a></li>
+                            <li><a href="#">تگ های html</a></li>
+                            <li><a href="#">درباره ما</a></li>
+                            <li><a href="#">تماس با ما</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <a href="#">
+                            <figure>
+                                <img src="img/instagram-optimize-360-950x630.jpg">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+
+                <div class="container copyright-container">
+
+                    <div class="copyright-right">
+
+                        <p>تمامی حقوق و مطالب سایت برای وبسافت3 محفوظ می باشد و کپی برداری از مطالب رایگان باذکر منبع آزاد است.</p>
+
+                    </div>
+
+                    <div class="copyright-left">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+    </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,641 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body{
+    direction: rtl;
+    font-family: parastoo;
+}
+
+a{
+    transition: all 0.2s ease-in-out;
+}
+
+@font-face {
+    font-family: parastoo;
+    src: url("fonts/Parastoo.ttf") format("truetype"), url("fonts/Parastoo.woff") format('woff');
+}
+
+.container{
+    width: 1366px;
+    margin: auto;
+}
+
+.topbar-menu {
+    background: #163a5c;
+    float: left;
+    width: 100%;
+}
+
+.topbar-menu .topbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar-menu .topbar-left {
+    width: 41%;
+    display: flex;
+    justify-content: space-between;
+}
+.topbar-menu .topbar-left .topbar-left-menu{
+
+}
+
+.topbar-menu .topbar-left .topbar-left-menu li.instagram {
+    padding: 24px 65px;
+    border-radius: 33px;
+    background: linear-gradient(45deg, #ff7c7c, #5b43bc);
+    position: relative;
+}
+
+.topbar-menu .topbar-left .topbar-left-menu li.instagram a {
+    position: absolute;
+    top: 9px;
+    right: 44px;
+}
+
+.topbar-menu .topbar-left .topbar-left-menu li.instagram i {
+    font-size: 22px;
+    margin-left: 4px;
+    position: absolute;
+    top: 13px;
+    right: 13px;
+}
+
+.topbar-menu .topbar-left .topbar-left-menu ul {
+    display: flex;
+}
+
+.topbar-menu .topbar-left .topbar-left-menu ul li {
+    list-style: none;
+    margin-left: 17px;
+    color: white;
+    padding: 9px 0 0 0;
+}
+
+.topbar-menu .topbar-left .topbar-left-menu ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.topbar-menu .topbar-left .topbar-left-icons {
+    display: flex;
+}
+
+.topbar-menu .topbar-left .topbar-left-icons i {
+    margin-right: 29px;
+    padding: 13px 0 0 0;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.topbar-menu .topbar-right {
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.topbar-menu .topbar-right .telegram {
+    width: 48%;
+    color: white;
+    padding: 12px 0;
+    font-size: 13px;
+    position: relative;
+}
+
+.topbar-menu .topbar-right .telegram span {
+
+}
+
+.topbar-menu .topbar-right .telegram i {
+    margin-left: 6px;
+    font-size: 18px;
+    position: absolute;
+    top: 14px;
+    right: -28px;
+
+}
+
+
+
+.topbar-menu .topbar-right .email {
+    width: 70%;
+    color: white;
+    padding: 12px 0;
+    font-size: 13px;
+    position: relative;
+}
+
+.topbar-menu .topbar-right .email span{
+
+}
+
+.topbar-menu .topbar-right .email i {
+    margin-left: 6px;
+    font-size: 18px;
+    position: absolute;
+    top: 14px;
+    right: -28px;
+}
+
+.main-menu {
+    box-shadow: 0 0 7px #cfcfcf;
+}
+
+.main-menu .mainmenu-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+}
+
+.main-menu .mainmenu-container .logo{
+
+}
+
+.main-menu .mainmenu-container .logo figure{
+
+}
+
+.main-menu .mainmenu-container .logo figure img{
+
+}
+
+.main-menu .mainmenu-container .menu{
+
+}
+
+.main-menu .mainmenu-container .menu > ul > li >ul {
+    padding: 0 !important;
+    position: absolute;
+    top: 142px;
+    left: -139px;
+    right: -50px;
+    background: white;
+    border-bottom: 3px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease-in-out;
+    z-index: 1;
+}
+
+.main-menu .mainmenu-container .menu > ul > li >ul > li {
+    margin: 0;
+    position: unset !important;
+    margin-bottom: 11px;
+    padding: 0 14px;
+    height: initial;
+}
+
+.main-menu .mainmenu-container .menu > ul > li >ul > li> a {
+    height: inherit;
+}
+
+
+.main-menu .mainmenu-container .menu ul {
+    display: flex;
+    padding: 29px 0 0 0;
+}
+
+.main-menu .mainmenu-container .menu ul li {
+    list-style: none;
+    margin-left: 74px;
+    position: relative;
+    height: 77px;
+}
+
+.main-menu .mainmenu-container .menu ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    top: 80px;
+}
+
+.main-menu .mainmenu-container .menu ul li a {
+    text-decoration: none;
+    color: #454647;
+    font-weight: bold;
+    height: 86px;
+    display: block;
+}
+
+.main-menu .mainmenu-container .register {
+    padding: 31px 0;
+}
+
+.main-menu .mainmenu-container .register a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background: #5caf21;
+    padding: 13px 24px;
+    border-radius: 9px;
+}
+
+.main-menu .mainmenu-container .register a:hover{
+    background: grey;
+}
+
+.main-menu .mainmenu-container .register a i {
+    font-size: 21px;
+    padding-left: 9px;
+}
+
+.videosection {
+    margin-top: 30px;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 70px;
+}
+
+.videosection .video-section-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videosection .video-section-top .video-section-top-left {
+    width: 32%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videosection .video-section-top .video-section-top-left .left-videos{
+    margin-bottom: 30px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.videosection .video-section-top .video-section-top-left .left-videos a{
+
+}
+
+.videosection .video-section-top .video-section-top-left .left-videos a i {
+    position: absolute;
+    top: 114px;
+    right: 189px;
+    color: #fff;
+    font-size: 45px;
+    opacity: 0.9;
+    transition: all 0.2s ease-in-out;
+}
+
+.videosection .video-section-top .video-section-top-left .left-videos:hover i{
+    font-size: 47px;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+
+
+.videosection .video-section-top .video-section-top-right {
+    width: 66%;
+    position: relative;
+    cursor: pointer;
+}
+.videosection .video-section-top .video-section-top-right i {
+    position: absolute;
+    top: 233px;
+    right: 389px;
+    color: #fff;
+    font-size: 117px;
+    opacity: .5;
+    transition: all .3s ease-in-out;
+}
+
+.videosection .video-section-top .video-section-top-right:hover i{
+    font-size: 130px;
+    right: 387px;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+.videosection .video-section-top .video-section-top-left figure img {
+    max-width: 100%;
+    height: 280px;
+    border-radius: 16px;
+    box-shadow: 0px 0 23px #806363;
+}
+
+.videosection .video-section-top .video-section-top-right figure{
+
+}
+
+.videosection .video-section-top .video-section-top-right figure img {
+    max-width: 100%;
+    border-radius: 16px;
+    box-shadow: 0px 0 23px #806363;
+}
+
+.videosection .video-section-bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: -1px;
+}
+
+.videosection .video-section-bottom .bottom-video {
+    width: 32%;
+    cursor: pointer;
+    position: relative;
+}
+
+.videosection .video-section-bottom .bottom-video:hover i{
+    font-size: 47px;
+    right: 189px;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+.videosection .video-section-bottom .bottom-video a{
+
+}
+
+.videosection .video-section-bottom .bottom-video a i {
+    position: absolute;
+    top: 114px;
+    right: 189px;
+    color: #fff;
+    font-size: 45px;
+    opacity: 0.9;
+    transition: all 0.2s ease-in-out;
+}
+
+.videosection .video-section-bottom .bottom-video figure{
+
+}
+
+.videosection .video-section-bottom .bottom-video figure img {
+    max-width: 100%;
+    border-radius: 16px;
+    height: 280px;
+    box-shadow: 0px 0 23px #806363;
+}
+
+.road {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.road .road-title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 24px;
+}
+
+.road .road-title i {
+    font-size: 29px;
+    position: absolute;
+    right: 527px;
+    top: 9px;
+}
+
+.road .road-title h1{
+
+}
+
+.road .road-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.road .road-content .road-articles {
+    display: flex;
+    justify-content: center;
+    width: 24%;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px 0 0 0;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+
+.road .road-content .road-articles i {
+    font-size: 50px;
+    margin-bottom: 15px;
+    transition: all .5s ease-in-out;
+}
+
+.road .road-content .road-articles h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 19px;
+    padding: 0 19px;
+}
+
+.road .road-content .road-articles p {
+    text-align: justify;
+    padding: 0 19px;
+}
+
+.road .road-content .road-articles .btn-more{
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease-in-out;
+    margin-top: 22px;
+
+}
+
+.road .road-content .road-articles:hover .btn-more {
+    opacity: 1;
+    visibility: visible;
+}
+
+.road .road-content .road-articles .btn-more a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: green;
+    display: block;
+}
+
+.road .road-content .road-articles:hover{
+    background: #d0dce8;
+}
+
+.road .road-content .road-articles:hover i{
+    transform: rotateZ(360deg);
+}
+
+.article{
+    margin-top: 60px;
+}
+
+.article .article-head {
+    display: flex;
+    justify-content: space-between;
+}
+.article .article-head .article-title{
+
+}
+
+.article .article-head .article-title h1{
+
+}
+
+.article .article-head .article-title span{
+
+}
+
+.article .article-head .article-button{
+
+}
+
+.article .article-head .article-button a {
+    color: #fff;
+    text-decoration: none;
+    background: green;
+    padding: 11px;
+    border-radius: 8px;
+}
+
+.article #article-slider{
+    direction: ltr;
+    position: relative;
+}
+
+.article #article-slider .item {
+    border: 1px solid #ccc;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.article #article-slider .item figure{
+
+}
+
+.article #article-slider .item figure img{
+
+}
+
+.article #article-slider .item a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: block;
+    padding: 13px;
+    height: 82px;
+}
+
+.article #article-slider .item .item-more {
+    margin-top: 21px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 5px;
+    background: #ededed;
+    transition: all .2s ease-in-out;
+}
+
+.article #article-slider .item:hover .item-more{
+    background: forestgreen;
+}
+
+.article #article-slider .item .item-more span{
+
+}
+
+.article #article-slider .owl-dots button span{
+    transition: all .2s ease-in-out;
+}
+
+.article #article-slider .owl-dots button span:hover{
+    background: #5caf21!important;
+}
+
+.article #article-slider .owl-dots .active span {
+    background: #5caf21!important;
+    width: 18px !important;
+}
+
+
+.article #article-slider .owl-nav button.owl-prev {
+    position: absolute;
+    top: 131px;
+    left: -40px;
+}
+
+
+.article #article-slider .owl-nav button.owl-next {
+    position: absolute;
+    top: 131px;
+    right: -40px;
+}
+
+.owl-nav button {
+    padding: 26px 35px !important;
+    border-radius: 62% !important;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    color: #FFFFFF !important;
+}
+
+.article #article-slider:hover .owl-nav button{
+    opacity: 0.5;
+    background: #c7c7c7 !important;
+}
+
+.article2{
+    margin-top: 60px;
+}
+
+.article2 .article2-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.article2 .article2-container .article-box2 {
+    width: 49%;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    box-shadow: 0 0 19px #CCC;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.article2 .article2-container .article-box2 a {
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: black;
+}
+
+.article2 .article2-container .article-box2 figure {
+    width: 30%;
+}
+
+.article2 .article2-container .article-box2 figure img {
+    max-width: 100%;
+    border-radius: 16px;
+    margin: 20px 14px -3px 0;
+    height: auto;
+    box-shadow: 0 0 27px #ccc;
+    transition: all .5s ease-in-out;
+}
+
+.article2 .article2-container .article-box2 h2 {
+    font-size: 18px;
+    margin: 44px 28px;
+    line-height: 53px;
+}
+
+.article2 .article2-container .article-box2:hover img{
+    transform: rotateZ(20deg);
+}
+
+
+
+
+
+
