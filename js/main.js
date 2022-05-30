@@ -68,4 +68,12 @@ $(document).ready(function () {
   });
 });
 
-console.log("welcome");
+const newFeature = function () {
+  console.log("welcome");
+  console.log("welcome");
+  console.log("welcome");
+  console.log("welcome");
+  console.log("welcome");
+};
+
+newFeature();
