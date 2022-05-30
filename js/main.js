@@ -67,13 +67,3 @@ $(document).ready(function () {
     }
   });
 });
-
-const newFeature = function () {
-  console.log("welcome");
-  console.log("welcome");
-  console.log("welcome");
-  console.log("welcome");
-  console.log("welcome");
-};
-
-newFeature();
